@@ -1,6 +1,6 @@
 sorular = ['Hangisi Kaymağı İle Ünlü Olan İlimizdir ?','Hangisi Dondurması İle Ünlü Olan İlimizdir ?',
 
-'Hangisi Pidesi İle Ünlü Olan İlimizdir ?''Almanyanın Başkenti Neresidir?','Haberleşmenin eski dildeki adı nedir?',
+'Hangisi Pidesi İle Ünlü Olan İlimizdir ?','Almanyanın Başkenti Neresidir?','Haberleşmenin eski dildeki adı nedir?',
 'Telli çalgılarda sazların en kalın teli nedir?','Japonların geleneksel güreşine ne ad verilir?',
 'Yeni bir işe girerken, iş yerlerine verdiğimiz kısa öz geçmişin kısa adı nedir?',
 'Deniz yolculuğunda toplu insan taşımacılığında kullanılan araçların ortak adı?',
@@ -37,7 +37,7 @@ def sor():
 
         print('Tebrikler! Doğru Cevap.')
 
-        puan += 10
+        puan += 1
 
     else:
 
@@ -59,7 +59,7 @@ def sor():
 
         print('Tebrikler! Doğru Cevap.')
 
-        puan += 10
+        puan += 1
 
     else:
 
@@ -81,7 +81,7 @@ def sor():
 
         print('Tebrikler! Doğru Cevap.')
 
-        puan += 10
+        puan += 1
 
     else:
 
@@ -101,7 +101,7 @@ def sor():
 
         print('Tebrikler! Doğru Cevap.')
 
-        puan += 10
+        puan += 1
 
     else:
 
@@ -121,7 +121,7 @@ def sor():
 
         print('Tebrikler! Doğru Cevap.')
 
-        puan += 10
+        puan += 1
 
     else:
 
@@ -141,7 +141,7 @@ def sor():
 
         print('Tebrikler! Doğru Cevap.')
 
-        puan += 10
+        puan += 1
 
     else:
 
@@ -161,7 +161,7 @@ def sor():
 
         print('Tebrikler! Doğru Cevap.')
 
-        puan += 10
+        puan += 1
 
     else:
 
@@ -181,7 +181,7 @@ def sor():
 
         print('Tebrikler! Doğru Cevap.')
 
-        puan += 10
+        puan += 1
 
     else:
 
@@ -201,7 +201,7 @@ def sor():
 
         print('Tebrikler! Doğru Cevap.')
 
-        puan += 10
+        puan += 1
 
     else:
 
@@ -221,7 +221,8 @@ def sor():
 
         print('Tebrikler! Doğru Cevap.')
 
-        puan += 10
+        puan += 1
+
 
     else:
 
@@ -233,8 +234,12 @@ def sor():
 
     print('Soru Oyunumuz Bitmiştir. Toplamda {} Soruya Doğru Cevap Verdiniz.'.format(puan))
 
+    toplamPuan=puan*10
+    print('Toplam Puanınız: {} '.format(toplamPuan))
+    
 
-    if puan > 50 :
+
+    if toplamPuan > 50 :
         print("Tebrikler Başarılı")
     else:
         print("Üzgünüm Başarısız oldunuz")
