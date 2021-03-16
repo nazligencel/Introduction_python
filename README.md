@@ -2,8 +2,8 @@
 ![](img/newlogo.png)
 
 **Course Date:** 08.03.2021-12.03.2021 <br>
-**Name:** Nazlı  
-**Surname:** GENÇEL
+**Name:** Nazlı  <br>
+**Surname:** GENÇEL <br>
 **Email:** nazligencel82@gmail.com  
   
 
