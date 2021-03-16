@@ -10,12 +10,6 @@
 ## Introduction Python
 
 
-## Requirements
-```
-Some python libraries
-
-```
----
 
 ### Certification
 ![](img/TopLearnerCertificate.png)
